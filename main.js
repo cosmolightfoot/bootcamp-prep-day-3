@@ -16,14 +16,6 @@ for(var i = 0; i < x; i++) {
     }
 }
 
-function sayHello() {
-    console.log('hi');
-}
-
-if(x % 2 === 0) {
-    sayHello();
-}
-
 function evenOrOdd() {
     var input = document.getElementById('number');
     var y = input.value;
