@@ -16,7 +16,7 @@ for(var i = 0; i < x; i++) {
     }
 }
 
-function sayHello( ) {
+function sayHello() {
     console.log('hi');
 }
 
