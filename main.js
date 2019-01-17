@@ -10,14 +10,19 @@
     }
 }
 */
+var isItEvenOrOdd;
 
 function evenOrOdd() {
     var input = document.getElementById('number');
+    
     var y = input.value;
     if(y % 2 === 0) {
         console.log('even');
+        isItEvenOrOdd = 'even'
     }
     else {
         console.log('odd');
+        isItEvenOrOdd = 'odd'
     }
+    document.write(isItEvenOrOdd);
 }
