@@ -10,11 +10,19 @@
     }
 }
 */
-var isItEvenOrOdd;
-
 function evenOrOdd() {
-    var input = document.getElementById('number');
     
+    var input = document.getElementById('number').value;
+    var output = document.getElementById('results');
+    input.innerHTML = output;
+}
+
+
+/*
+function evenOrOdd() {
+    var isItEvenOrOdd;
+    var input = document.getElementById('number');
+    var output = document.getElementById('results')
     var y = input.value;
     if(y % 2 === 0) {
         console.log('even');
@@ -24,5 +32,9 @@ function evenOrOdd() {
         console.log('odd');
         isItEvenOrOdd = 'odd'
     }
-    document.write(isItEvenOrOdd);
+    output.innerHTML = isItEvenOrOdd;
+   */
+    //window.alert(isItEvenOrOdd);
+    //document.getElementById('results').innerHTML = isItEvenOrOdd);
+    
 }
